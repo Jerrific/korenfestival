@@ -452,6 +452,42 @@ Main Components
   background: #f7bd7f;
 }
 
+.cd-schedule .single-event[data-event="event-1"].grey {
+  /* this is used to set a background color for the event and the modal window */
+  background: #ddd;
+}
+
+.cd-schedule .single-event[data-event="event-1"].grey:hover {
+  background: #ddd;
+}
+
+.cd-schedule .single-event[data-event="event-2"].grey {
+  /* this is used to set a background color for the event and the modal window */
+  background: #ddd;
+}
+
+.cd-schedule .single-event[data-event="event-2"].grey:hover {
+  background: #ddd;
+}
+
+.cd-schedule .single-event[data-event="event-3"].grey {
+  /* this is used to set a background color for the event and the modal window */
+  background: #ddd;
+}
+
+.cd-schedule .single-event[data-event="event-3"].grey:hover {
+  background: #ddd;
+}
+
+.cd-schedule .single-event[data-event="event-4"].grey {
+  /* this is used to set a background color for the event and the modal window */
+  background: #ddd;
+}
+
+.cd-schedule .single-event[data-event="event-4"].grey:hover {
+  background: #ddd;
+}
+
 .cd-schedule .event-modal {
   position: fixed;
   z-index: 3;
