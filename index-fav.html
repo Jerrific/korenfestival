@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d4d3dd">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	
+	<script src="js/jquery-3.4.1.js"></script>
+	
+	<script>
+  iframe.onload = function() {
+    // we can get the reference to the inner window
+    let iframeWindow = programmakljh.contentWindow;
+
+    try {
+      // ...but not to the document inside it
+      let doc = programmakljh.contentDocument;
+    } catch(e) {
+      alert(e); // Security Error (another origin)
+    }
+
+    // also we can't read the URL of the page in it
+    try {
+      alert(programmakljh.contentWindow.location);
+    } catch(e) {
+      alert(e); // Security Error
+    }
+
+    // ...but we can change it (and thus load something else into the iframe)!
+    programmakljh.contentWindow.location = '/'; // works
+
+    programmakljh.onload = null; // clear the handler, to run this code only once
+  };
+  
+  	document.domain = 'broadwayhoorn.nl';
+</script>
+	
+
+  	
+	<title>Programma KOREN LAAT JE HOORN | Zondag 6 oktober 2019</title>
+</head>
+<body>
+	<h1 style="text-align: center;">Programmaoverzicht KOREN&nbsp;LAAT&nbsp;JE&nbsp;HOORN</h1>
+	<p style="text-align: center;">De deuren van de schouwburg gaan om 12.00 open</p>
+<div class="checkbox" style="text-align: center;">
+	<label>
+		<input type="checkbox" class="filter-favs" name="filter-favs">Toon enkel <i class="fas fa-star" ></i></label>
+</div>
+<div class="cd-schedule loading">
+	<div class="timeline">
+		<ul>
+			<li><span>12:30</span></li>
+			<li><span>13:00</span></li>
+			<li><span>13:30</span></li>
+			<li><span>14:00</span></li>
+			<li><span>14:30</span></li>
+			<li><span>15:00</span></li>
+			<li><span>15:30</span></li>
+			<li><span>16:00</span></li>
+			<li><span>16:30</span></li>
+			<li><span>17:00</span></li>
+			<li><span>17:30</span></li>
+			<li><span>18:00</span></li>
+			<li><span>18:30</span></li>
+			<li><span>19:00</span></li>
+			<li><span>19:30</span></li>
+			<li><span>20:00</span></li>
+			<li><span>21:30</span></li>
+			<li><span>22:00</span></li>
+		</ul>
+	</div> <!-- .timeline -->
+
+	<div class="events">
+		<ul>
+			<li class="events-group">
+				<div class="top-info"><span>'t Hop</span></div>
+
+				<ul>
+					
+					<li	class="single-event" 
+					data-start="13:00"
+					data-end="13:25"
+					data-content="anyway"
+					data-event="event-1">
+					<i class="far fa-star" data-favorite="hop1300"></i><a href="#0"><em class="event-name">Anyway</em></a>
+					</li>
+
+					<li class="single-event"
+					data-start="13:30"
+					data-end="13:55"
+					data-content="brothers-4-tune"
+					data-event="event-2">
+					<i class="far fa-star" data-favorite="hop1330"></i><a href="#0"><em class="event-name">Brothers-4-Tune</em></a>
+					</li>
+
+					<li class="single-event"
+					data-start="14:00"
+					data-end="14:25"
+					data-content="solid-close-harmony-pop"
+					data-event="event-3">
+					<i class="far fa-star" data-favorite="hop1400"></i><a href="#0"><em class="event-name">Solid Close Harmony Pop</em></a>
+					</li>
+					
+				</ul>
+			</li>
+
+			<li class="events-group">
+				<div class="top-info"><span>Foyer</span></div>
+
+				<ul>
+					
+					<li class="single-event"
+					data-start="13:00"
+					data-end="13:25"
+					data-content="good-vibes"
+					data-event="event-2">
+					<i class="far fa-star" data-favorite="foy1300"></i><a href="#0"><em class="event-name">Good Vibes</em></a>
+					</li>
+
+					<li class="single-event"
+					data-start="13:30"
+					data-end="13:55"
+					data-content="man-at-work"
+					data-event="event-3">
+					<i class="far fa-star" data-favorite="foy1330"></i><a href="#0"><em class="event-name">Vocalgroup Men@Work</em></a>
+					</li>
+
+					<li class="single-event"
+					data-start="14:00"
+					data-end="14:25"
+					data-content="adam-sings"
+					data-event="event-4">
+					<i class="far fa-star" data-favorite="foy1400"></i><a href="#0"><em class="event-name">Vocal Group Adam Sings!</em></a>
+					</li>
+
+					<li class="single-event"
+					data-start="14:30"
+					data-end="14:55"
+					data-content="soedarynja"
+					data-event="event-1">
+					<i class="far fa-star" data-favorite="foy1430"></i><a href="#0"><em class="event-name">Russisch Vocaal Ensemble Soedarynja</em></a>
+					</li>
+					
+					<li class="single-event"
+					data-start="15:00"
+					data-end="15:25"
+					data-content="koorbizniz"
+					data-event="event-2">
+					<i class="far fa-star" data-favorite="foy1500"></i><a href="#0"><em class="event-name">Koorbizniz</em></a>
+					</li>
+
+					<li class="single-event"
+					data-start="15:30"
+					data-end="15:55"
+					data-content="blessing"
+					data-event="event-3">
+					<i class="far fa-star" data-favorite="foy1530"></i><a href="#0"><em class="event-name">BlesSing</em></a>
+					</li>
+
+					<li class="single-event"
+					data-start="16:00" data-end="16:25"
+					data-content="spoorbijster"
+					data-event="event-4">
+					<i class="far fa-star" data-favorite="foy1600"></i><a href="#0"><em class="event-name">Vocalgroup SpoorBijSter</em></a>
+					</li>
+
+					
+				</ul>
+			</li>
+
+			<li class="events-group">
+				<div class="top-info"><span>Othello</span></div>
+
+				<ul>
+					
+					<li class="single-event"
+					data-start="12:30"
+					data-end="12:55"
+					data-content="musical-popkoor-broadway"
+					data-event="event-2">
+					<i class="far fa-star" data-favorite="oth1230"></i><a href="#0"><em class="event-name">Musical Popkoor BROADWAY</em></a>
+					</li>
+					
+					<li class="single-event"
+					data-start="13:00"
+					data-end="13:25"
+					data-content="zwingkoor"
+					data-event="event-3">
+					<i class="far fa-star" data-favorite="oth1300"></i><a href="#0"><em class="event-name">Zwingkoor</em></a>
+					</li>
+
+					<li class="single-event"
+					data-start="13:30"
+					data-end="13:55"
+					data-content="blue-wednesday"
+					data-event="event-4">
+					<i class="far fa-star" data-favorite="oth1330"></i><a href="#0"><em class="event-name">Blue Wednesday</em></a>
+					</li>
+
+					<li class="single-event"
+					data-start="14:00"
+					data-end="14:25"
+					data-content="vocal-society"
+					data-event="event-1">
+					<i class="far fa-star" data-favorite="oth1400"></i><a href="#0"><em class="event-name">Vocal Society</em></a>
+					</li>
+
+					<li class="single-event"
+					data-start="14:30"
+					data-end="14:55"
+					data-content="swinging-harderwijk"
+					data-event="event-2">
+					<i class="far fa-star" data-favorite="oth1430"></i><a href="#0"><em class="event-name">Swinging Harderwijk</em></a>
+					</li>
+					
+					<li class="single-event"
+					data-start="15:00"
+					data-end="15:25"
+					data-content="ongeremd"
+					data-event="event-3">
+					<i class="far fa-star" data-favorite="oth1500"></i><a href="#0"><em class="event-name">Popkoor Ongeremd</em></a>
+					</li>
+
+					<li class="single-event"
+					data-start="15:30"
+					data-end="15:55"
+					data-content="dzko"
+					data-event="event-4">
+					<i class="far fa-star" data-favorite="oth1530"></i><a href="#0"><em class="event-name">Vrouwenkoor DZKO</em></a>
+					</li>
+
+					<li class="single-event"
+					data-start="16:00"
+					data-end="16:25"
+					data-content="evergreens"
+					data-event="event-1">
+					<i class="far fa-star" data-favorite="oth1600"></i><a href="#0"><em class="event-name">Gemengd Koor Evergreens</em></a>
+					</li>
+
+					<li class="single-event"
+					data-start="16:30"
+					data-end="16:55"
+					data-content="paradijsvogels"
+					data-event="event-2">
+					<i class="far fa-star" data-favorite="oth1630"></i><a href="#0"><em class="event-name">Vrouwenkoor de Paradijsvogels</em></a>
+					</li>
+					
+					<li class="single-event"
+					data-start="17:00"
+					data-end="17:25"
+					data-content="uptight"
+					data-event="event-3">
+					<i class="far fa-star" data-favorite="oth1700"></i><a href="#0"><em class="event-name">Soul- en Gospelkoor UpTight</em></a>
+					</li>
+
+					<li class="single-event"
+					data-start="17:30"
+					data-end="17:55"
+					data-content="stembent"
+					data-event="event-4">
+					<i class="far fa-star" data-favorite="oth1730"></i><a href="#0"><em class="event-name">Stembent</em></a>
+					</li>
+
+					<li class="single-event"
+					data-start="18:00"
+					data-end="18:25"
+					data-content="refreshsing"
+					data-event="event-1">
+					<i class="far fa-star" data-favorite="oth1800"></i><a href="#0"><em class="event-name">RefreshSing</em></a>
+					</li>
+					
+					<li class="single-event"
+					data-start="18:30"
+					data-end="18:55"
+					data-content="ooker"
+					data-event="event-2">
+					<i class="far fa-star" data-favorite="oth1830"></i><a href="#0"><em class="event-name">Ooker</em></a>
+					</li>
+					
+					<li class="single-event" data-start="20:20" data-end="21:35" data-content="event-yoga-1" data-event="event-1">
+						<a href="#0">
+							<em class="event-name">SING-ALONG</em>
+						</a>
+					</li>
+				</ul>
+			</li>
+
+			<li class="events-group">
+				<div class="top-info"><span>Hamlet</span></div>
+
+				<ul>
+					
+					<li class="single-event"
+					data-start="13:00"
+					data-end="13:25"
+					data-content="midway-joy-singers"
+					data-event="event-2">
+					<i class="far fa-star" data-favorite="ham1300"></i><a href="#0"><em class="event-name">The Midway Joy Singers</em></a>
+					</li>
+
+					<li class="single-event"
+					data-start="13:30"
+					data-end="13:55"
+					data-content="voorweg-koor"
+					data-event="event-3">
+					<i class="far fa-star" data-favorite="ham1330"></i><a href="#0"><em class="event-name">Voorweg Koor</em></a>
+					</li>
+
+					<li class="single-event"
+					data-start="14:00"
+					data-end="14:25"
+					data-content="funtastic"
+					data-event="event-4">
+					<i class="far fa-star" data-favorite="ham1400"></i><a href="#0"><em class="event-name">POPkoor FUNtastic</em></a>
+					</li>
+
+					<li class="single-event"
+					data-start="14:30"
+					data-end="14:55"
+					data-content="optimisten"
+					data-event="event-1">
+					<i class="far fa-star" data-favorite="ham1430"></i><a href="#0"><em class="event-name">De Optimisten</em></a>
+					</li>
+					
+					<li class="single-event"
+					data-start="15:00"
+					data-end="15:25"
+					data-content="pop4shore"
+					data-event="event-2">
+					<i class="far fa-star" data-favorite="ham1500"></i><a href="#0"><em class="event-name">Pop4Shore!</em></a>
+					</li>
+
+					<li class="single-event"
+					data-start="15:30"
+					data-end="15:55"
+					data-content="soundsation"
+					data-event="event-3">
+					<i class="far fa-star" data-favorite="ham1530"></i><a href="#0"><em class="event-name">Popkoor Soundsation</em></a>
+					</li>
+
+					<li class="single-event"
+					data-start="16:00"
+					data-end="16:25"
+					data-content="popart"
+					data-event="event-4">
+					<i class="far fa-star" data-favorite="ham1600"></i><a href="#0"><em class="event-name">Pop-en Musicalkoor PopArt</em></a>
+					</li>
+
+					<li class="single-event"
+					data-start="16:30"
+					data-end="16:55"
+					data-content="young-forever"
+					data-event="event-1">
+					<i class="far fa-star" data-favorite="ham1630"></i><a href="#0"><em class="event-name">Projectkoor Young Forever</em></a>
+					</li>
+					
+					<li class="single-event"
+					data-start="17:00"
+					data-end="17:25"
+					data-content="t-koor"
+					data-event="event-2">
+					<i class="far fa-star" data-favorite="ham1700"></i><a href="#0"><em class="event-name">'t KOOR!</em></a>
+					</li>
+
+					<li class="single-event"
+					data-start="17:30"
+					data-end="17:55"
+					data-content="lets-rock"
+					data-event="event-3">
+					<i class="far fa-star" data-favorite="ham1730"></i><a href="#0"><em class="event-name">Rockkoor Let's Rock</em></a>
+					</li>
+					
+					<li class="single-event"
+					data-start="18:00"
+					data-end="18:25"
+					data-content="singt"
+					data-event="event-4">
+					<i class="far fa-star" data-favorite="ham1800"></i><a href="#0"><em class="event-name">Popkoor S!ngt</em></a>
+					</li>
+
+					<li class="single-event"
+					data-start="18:30"
+					data-end="18:55"
+					data-content="zanggroep-experiment"
+					data-event="event-1">
+					<i class="far fa-star" data-favorite="ham1830"></i><a href="#0"><em class="event-name">Zanggroep Experiment</em></a>
+					</li>
+
+				</ul>
+			</li>
+
+		</ul>
+	</div>
+
+	<div class="event-modal">
+		<header class="header">
+			<div class="content">
+				<span class="event-date"></span>
+				<h3 class="event-name"></h3>
+			</div>
+
+			<div class="header-bg"></div>
+		</header>
+
+		<div class="body">
+			<div class="event-info"></div>
+			<div class="body-bg"></div>
+		</div>
+
+		<a href="#0" class="close">Close</a>
+	</div>
+
+	<div class="cover-layer"></div>
+</div> <!-- .cd-schedule -->
+<script src="js/modernizr.js"></script>
+<script type='text/javascript' src='js/script-fav.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+</script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
