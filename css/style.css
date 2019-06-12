@@ -8,14 +8,19 @@ Primary style
 }
 
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
+    background: url(https://res.cloudinary.com/broadwayhoorn/image/upload/v1559202065/2019/Korenfestival/Trappen_Foyer_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 body {
-  font-size: 1.6rem;
-  font-family: "Source Sans Pro", sans-serif;
-  color: #222222;
-  background-color: white;
+    font-size: 1.6rem;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
 }
 
 a {
@@ -81,7 +86,7 @@ Main Components
     left: 0;
     width: 100%;
     height: 1px;
-    background: #EAEAEA;
+    background: #969696;
   }
   .cd-schedule .timeline li:last-of-type::after {
     display: none;
@@ -198,7 +203,7 @@ Main Components
     /* vertically center its content */
     display: table;
     height: 50px;
-    border-bottom: 1px solid #EAEAEA;
+    border-bottom: 1px solid #969696;
     /* reset style */
     padding: 0;
   }
