@@ -397,6 +397,7 @@ Main Components
     max-width: 225px;}
 
 .event-info .content-wrap {
+    color: black;
     position: absolute;
     bottom: 0;
     max-height: 300px;
