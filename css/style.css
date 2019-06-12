@@ -24,6 +24,8 @@ body {
     height: 100%;
 }
 
+strong {font-weight: 600;}
+
 h1 {
     font-size: 2rem;
     margin: 0 0 0 0;
