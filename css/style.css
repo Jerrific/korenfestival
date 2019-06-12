@@ -18,8 +18,13 @@ body {
   background-color: white;
 }
 
+h1 {
+    font-size: 2rem;
+    margin: 1rem 0 0 0;
+}
+
 a {
-  color: #A2B9B2;
+  color: #02486d;
   text-decoration: none;
 }
 
@@ -179,13 +184,21 @@ Main Components
   }
 }
 
+@media (max-width: 480px) {
+.cd-schedule .events .events-group {
+    margin-bottom: 20px;}
+
+.cd-schedule .events .single-event {
+    height: 90px;}
+}
+
 @media only screen and (min-width: 800px) {
   .cd-schedule .events {
     float: left;
     width: 100%;
   }
   .cd-schedule .events .events-group {
-    width: 20%;
+    width: 25%;
     float: left;
     border: 1px solid #EAEAEA;
     /* reset style */
@@ -218,6 +231,7 @@ Main Components
     display: block;
     overflow: visible;
     padding: 0;
+	margin: 0 2px 0 2px;
   }
   .cd-schedule .events .events-group > ul::after {
     clear: both;
@@ -243,7 +257,7 @@ Main Components
     margin-right: 0;
   }
   .cd-schedule .events .single-event a {
-    padding: 1.2em;
+    padding: 0.4em 1.2em 1.2em 1.2em;
   }
   .cd-schedule .events .single-event:last-of-type {
     /* reset style */
@@ -279,13 +293,111 @@ Main Components
 }
 
 .cd-schedule .event-name {
-  font-size: 2.4rem;
+  font-size: 2.0rem;
 }
 
 @media only screen and (min-width: 800px) {
-  .cd-schedule .event-name {
-    font-size: 2rem;
-  }
+.cd-schedule .event-name {
+  font-size: 1.6rem;}
+
+.cd-schedule .event-date {
+  margin-right: 10px;	
+  float: left;}
+}
+.events li i {
+  padding: 3px;
+  float: right;
+  color: white;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+.cd-schedule .event-modal .event-date {
+    display: block;}
+	
+.event-info .img-wrap {
+    text-align: center;}
+
+.event-info .songs {
+    text-align: center;
+    margin-top: 20px;}
+
+.event-info .content-wrap {
+    margin: -1.4em 0 0 -5%;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    background: #feffe9;
+    height: 40vh;}
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+.cd-schedule .event-date {
+    margin-right: 10px;
+    float: none;}
+	
+.cd-schedule .event-name {
+    font-size: 1.2rem;}
+
+.cd-schedule .events .single-event a {
+    padding: 0.4em 0.8em 0.8em 0.8em;}
+}
+
+@media (min-width: 1024px) {
+.cd-schedule .event-modal .event-date {
+    margin-right: 10px;
+    float: none;}
+	
+.event-info .img-wrap {
+    position: fixed;
+    max-height: 150px;
+    overflow: hidden;
+    margin: -2em -3em 1em -2em;
+    padding: 20px;
+    background: #ffffff;}
+
+.event-info .content-wrap {
+    position: absolute;
+    bottom: 0;
+    max-height: 300px;
+    overflow-y: scroll;
+    padding: 20px;
+    background: #fbfae4;
+    margin: 0px 2px -4px -32px;}
+
+.event-info .songs {
+    margin: 140px 0 0 -224px;
+    position: fixed;
+    color: #ffffff;
+    max-width: 163px;}
+}
+
+@media (min-width: 1200px) {
+.event-info .img-wrap {
+    position: fixed;
+    max-height: 184px;
+    overflow-y: hidden;
+    margin: -2em -3em 1em -2em;
+    padding: 0px;
+    background: #ffffff;}
+
+.event-info img {
+    width: 468px;}
+
+.event-info .songs {
+    margin: 140px 0 0 -270px;
+    position: fixed;
+    color: #ffffff;
+    max-width: 225px;}
+
+.event-info .content-wrap {
+    position: absolute;
+    bottom: 0;
+    max-height: 300px;
+	min-height: 300px;
+    overflow-y: scroll;
+    padding: 20px;
+    background: #fbfae4;
+    margin: 0px 2px -4px -32px;}
 }
 
 .cd-schedule .event-date {
@@ -299,7 +411,7 @@ Main Components
 .cd-schedule .single-event[data-event="event-1"],
 .cd-schedule [data-event="event-1"] .header-bg {
   /* this is used to set a background color for the event and the modal window */
-  background: #577F92;
+  background: #006DA8;
 }
 
 .cd-schedule .single-event[data-event="event-1"]:hover {
@@ -308,7 +420,7 @@ Main Components
 
 .cd-schedule .single-event[data-event="event-2"],
 .cd-schedule [data-event="event-2"] .header-bg {
-  background: #443453;
+  background: #19A30F;
 }
 
 .cd-schedule .single-event[data-event="event-2"]:hover {
@@ -317,7 +429,7 @@ Main Components
 
 .cd-schedule .single-event[data-event="event-3"],
 .cd-schedule [data-event="event-3"] .header-bg {
-  background: #A2B9B2;
+  background: #a76109;
 }
 
 .cd-schedule .single-event[data-event="event-3"]:hover {
@@ -326,7 +438,7 @@ Main Components
 
 .cd-schedule .single-event[data-event="event-4"],
 .cd-schedule [data-event="event-4"] .header-bg {
-  background: #f6b067;
+  background: #980404;
 }
 
 .cd-schedule .single-event[data-event="event-4"]:hover {
@@ -384,13 +496,68 @@ Main Components
   z-index: 2;
   line-height: 1.4;
   height: 100%;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .cd-schedule .event-modal .event-info > div {
   overflow: auto;
   height: 100%;
   padding: 1.4em 5%;
+}
+
+.event-info p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 480px) {
+.event-info .img-wrap {
+    margin: -1.4em -5% 15px;
+    max-height: 130px;
+    overflow: hidden;
+    padding: 0px;
+    position: fixed;}
+
+.event-info .songs {
+    color: #513e63;
+    font-weight: 600;
+    margin: 120px 0px 0 0px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;}
+	
+.event-info .songs::-webkit-scrollbar {
+  width: 10px;}
+
+.event-info .songs::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;}
+ 
+.event-info .songs::-webkit-scrollbar-thumb {
+  background: #19a30f; 
+  border-radius: 10px;}
+
+.event-info .songs::-webkit-scrollbar-thumb:hover {
+  background: #b30000;}
+
+.event-info .content-wrap {
+    margin: 0px -18px 0px -18px;
+    padding: 20px;
+    background: #f6fad7;}
+
+.event-info .content-wrap::-webkit-scrollbar {
+  width: 10px;}
+
+.event-info .content-wrap::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;}
+ 
+.event-info .content-wrap::-webkit-scrollbar-thumb {
+  background: red; 
+  border-radius: 10px;}
+
+.event-info .content-wrap::-webkit-scrollbar-thumb:hover {
+  background: #b30000;} 
 }
 
 .cd-schedule .event-modal .header-bg, .cd-schedule .event-modal .body-bg {
@@ -458,7 +625,7 @@ Main Components
 }
 
 .cd-schedule .event-modal .event-date {
-  display: none;
+//  display: none;
 }
 
 .cd-schedule .event-modal.no-transition {
@@ -538,7 +705,10 @@ Main Components
   .cd-schedule .event-modal .close {
     width: 40px;
     height: 40px;
-    background: transparent;
+	right: -30px;
+    top: -30px;
+    background: rgba(255, 2550, 2550, 1) !important;
+    border-radius: 50%;
   }
   .cd-schedule .event-modal .close::after, .cd-schedule .event-modal .close::before {
     background: #222222;
