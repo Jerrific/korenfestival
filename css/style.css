@@ -586,7 +586,8 @@ Main Components
 .event-info .songs::-webkit-scrollbar-thumb:hover {
   background: #b30000;}
 
-.event-info .content-wrap {
+.event-info .content-wrap {    
+    color: black;
     margin: 0px -18px 0px -18px;
     padding: 20px;
     background: #f6fad7;}
