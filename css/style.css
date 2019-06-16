@@ -37,6 +37,10 @@ a {
 Responsive columns
 -------------------------------- */
 
+.row {
+    background: rgba(0,0,0,0.4);
+}
+
 .column3 {
   float: left;
   width: 33.33%;
