@@ -1,8 +1,4 @@
-/* -------------------------------- 
-
-Primary style
-
--------------------------------- */
+/* Primary style */
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -35,6 +31,27 @@ h1 {
 a {
   color: #02486d;
   text-decoration: none;
+}
+
+/* -------------------------------- 
+Responsive columns
+-------------------------------- */
+
+.column3 {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 767px) {
+  .column3 {
+    width: 100%;
+  }
 }
 
 /* -------------------------------- 
