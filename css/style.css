@@ -418,76 +418,54 @@ Main Components
   margin-bottom: .2em;
 }
 
-.cd-schedule .single-event[data-event="event-1"],
-.cd-schedule [data-event="event-1"] .header-bg {
   /* this is used to set a background color for the event and the modal window */
-  background: #006DA8;
+.cd-schedule .single-event[data-event="pop"], .cd-schedule [data-event="pop"] .header-bg {
+    background: #FF6700;
 }
-
-.cd-schedule .single-event[data-event="event-1"]:hover {
-  background: #618da1;
+.cd-schedule .single-event[data-event="pop"]:hover {
+    background: #618da1;
 }
-
-.cd-schedule .single-event[data-event="event-2"],
-.cd-schedule [data-event="event-2"] .header-bg {
-  background: #19A30F;
-}
-
-.cd-schedule .single-event[data-event="event-2"]:hover {
-  background: #513e63;
-}
-
-.cd-schedule .single-event[data-event="event-3"],
-.cd-schedule [data-event="event-3"] .header-bg {
-  background: #a76109;
-}
-
-.cd-schedule .single-event[data-event="event-3"]:hover {
-  background: #b1c4be;
-}
-
-.cd-schedule .single-event[data-event="event-4"],
-.cd-schedule [data-event="event-4"] .header-bg {
-  background: #980404;
-}
-
-.cd-schedule .single-event[data-event="event-4"]:hover {
-  background: #f7bd7f;
-}
-
-.cd-schedule .single-event[data-event="event-1"].grey {
-  /* this is used to set a background color for the event and the modal window */
+.cd-schedule .single-event[data-event="pop"].grey {
   background: #ddd;
 }
 
-.cd-schedule .single-event[data-event="event-1"].grey:hover {
+.cd-schedule .single-event[data-event="musical-pop"], .cd-schedule [data-event="musical-pop"] .header-bg {
+    background: #CF050E;
+}
+.cd-schedule .single-event[data-event="musical-pop"]:hover {
+    background: #618da1;
+}
+.cd-schedule .single-event[data-event="musical-pop"].grey {
   background: #ddd;
 }
 
-.cd-schedule .single-event[data-event="event-2"].grey {
-  /* this is used to set a background color for the event and the modal window */
+.cd-schedule .single-event[data-event="gospel-soul"], .cd-schedule [data-event="gospel-soul"] .header-bg {
+    background: #07558A;
+}
+.cd-schedule .single-event[data-event="gospel-soul"]:hover {
+    background: #618da1;
+}
+.cd-schedule .single-event[data-event="gospel-soul"].grey {
   background: #ddd;
 }
 
-.cd-schedule .single-event[data-event="event-2"].grey:hover {
+.cd-schedule .single-event[data-event="lichte-muziek"], .cd-schedule [data-event="lichte-muziek"] .header-bg {
+    background: #5F96EA;
+}
+.cd-schedule .single-event[data-event="lichte-muziek"]:hover {
+    background: #618da1;
+}
+.cd-schedule .single-event[data-event="lichte-muziek"].grey {
   background: #ddd;
 }
 
-.cd-schedule .single-event[data-event="event-3"].grey {
-  /* this is used to set a background color for the event and the modal window */
-  background: #ddd;
+.cd-schedule .single-event[data-event="overig"], .cd-schedule [data-event="overig"] .header-bg {
+    background: #19A30F;
 }
-
-.cd-schedule .single-event[data-event="event-3"].grey:hover {
-  background: #ddd;
+.cd-schedule .single-event[data-event="overig"]:hover {
+    background: #618da1;
 }
-
-.cd-schedule .single-event[data-event="event-4"].grey {
-  /* this is used to set a background color for the event and the modal window */
-  background: #ddd;
-}
-
-.cd-schedule .single-event[data-event="event-4"].grey:hover {
+.cd-schedule .single-event[data-event="overig"].grey {
   background: #ddd;
 }
 
