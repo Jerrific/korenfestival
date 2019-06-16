@@ -501,6 +501,12 @@ Main Components
     transform: rotate(-45deg);
 }
 
+@media (max-width: 480px) {
+.cd-schedule .single-event.masterclass:after {
+    right: -30px;
+    transform: inherit;}
+}
+
 /* Favorieten selectie */
 .cd-schedule .single-event.grey {
     display: none;
