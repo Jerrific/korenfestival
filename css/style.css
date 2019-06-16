@@ -467,6 +467,14 @@ Main Components
     border-radius: 15px;
     background: #E7040A;
 }
+.cd-schedule .single-event.masterclass:after {
+    content: "MC";
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 6px;
+    transform: rotate(-45deg);
+}
 
 /* Favorieten selectie */
 .cd-schedule .single-event.grey {
