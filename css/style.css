@@ -420,12 +420,9 @@ Main Components
 
 /* this is used to set a background color for the event and the modal window */
 .cd-schedule .single-event {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.7));
-    background-size: 0 100%;
     border-top: 1px solid #b7b911;
     border-right: 1px solid #b7b911;
     border-top-right-radius: 9px;
-    transition: background-size 1s 0s;
 }
 
 .cd-schedule .single-event[data-event="pop"], .cd-schedule [data-event="pop"] .header-bg {
@@ -433,8 +430,7 @@ Main Components
     border-left: 5px solid #FF6700;
 }
 .cd-schedule .single-event[data-event="pop"]:hover {
-     background: linear-gradient(to right, #086AA3, #086AA3);
-     background-size: 100% 100%;
+     background: #086AA3;
 }
 .cd-schedule .single-event[data-event="pop"].grey {
     background: #ddd;
