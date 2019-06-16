@@ -474,6 +474,11 @@ Main Components
 	background: #ddd;
 }
 
+/* Favorieten selectie */
+.cd-schedule .single-event.grey {
+    display: none;
+}
+
 .cd-schedule .event-modal {
   position: fixed;
   z-index: 3;
