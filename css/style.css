@@ -462,6 +462,12 @@ Main Components
     background: #086AA3;
 }
 
+.cd-schedule .single-event.sing-along {
+    border: 5px solid white;
+    border-radius: 15px;
+    background: #E7040A;
+}
+
 /* Favorieten selectie */
 .cd-schedule .single-event.grey {
     display: none;
