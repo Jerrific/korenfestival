@@ -420,7 +420,8 @@ Main Components
 
   /* this is used to set a background color for the event and the modal window */
 .cd-schedule .single-event[data-event="pop"], .cd-schedule [data-event="pop"] .header-bg {
-    background: #FF6700;
+    background: rgba(0, 0, 0, 0.35);
+	border-left: 2px solid #FF6700;
 }
 .cd-schedule .single-event[data-event="pop"]:hover {
     background: #618da1;
@@ -430,43 +431,47 @@ Main Components
 }
 
 .cd-schedule .single-event[data-event="musical-pop"], .cd-schedule [data-event="musical-pop"] .header-bg {
-    background: #CF050E;
+    border-left: 2px solid #CF050E;
+    background: rgba(0, 0, 0, 0.35);
 }
 .cd-schedule .single-event[data-event="musical-pop"]:hover {
     background: #618da1;
 }
 .cd-schedule .single-event[data-event="musical-pop"].grey {
-  background: #ddd;
+	background: #ddd;
 }
 
 .cd-schedule .single-event[data-event="gospel-soul"], .cd-schedule [data-event="gospel-soul"] .header-bg {
-    background: #07558A;
+    background: rgba(0, 0, 0, 0.35);
+	border-left: 2px solid #07558A;
 }
 .cd-schedule .single-event[data-event="gospel-soul"]:hover {
     background: #618da1;
 }
 .cd-schedule .single-event[data-event="gospel-soul"].grey {
-  background: #ddd;
+    background: #ddd;
 }
 
 .cd-schedule .single-event[data-event="lichte-muziek"], .cd-schedule [data-event="lichte-muziek"] .header-bg {
-    background: #5F96EA;
+    background: rgba(0, 0, 0, 0.35);
+	border-left: 2px solid #5F96EA;
 }
 .cd-schedule .single-event[data-event="lichte-muziek"]:hover {
     background: #618da1;
 }
 .cd-schedule .single-event[data-event="lichte-muziek"].grey {
-  background: #ddd;
+	background: #ddd;
 }
 
 .cd-schedule .single-event[data-event="overig"], .cd-schedule [data-event="overig"] .header-bg {
-    background: #19A30F;
+    background: rgba(0, 0, 0, 0.35);
+	border-left: 2px solid #19A30F;
 }
 .cd-schedule .single-event[data-event="overig"]:hover {
     background: #618da1;
 }
 .cd-schedule .single-event[data-event="overig"].grey {
-  background: #ddd;
+	background: #ddd;
 }
 
 .cd-schedule .event-modal {
