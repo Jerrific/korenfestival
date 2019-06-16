@@ -422,7 +422,7 @@ Main Components
 .cd-schedule .single-event {
 }
 
-.cd-schedule .single-event[data-event="pop"], .cd-schedule [data-event="lichte-muziek"] .header-bg {
+.cd-schedule .single-event[data-event="lichte-muziek"], .cd-schedule [data-event="lichte-muziek"] .header-bg {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.35), rgb(111, 45, 0));
     border-left: 5px solid #FF6700;
 }
@@ -446,7 +446,7 @@ Main Components
     background: #086AA3;
 }
 
-.cd-schedule .single-event[data-event="lichte-muziek"], .cd-schedule [data-event="pop"] .header-bg {
+.cd-schedule .single-event[data-event="pop"], .cd-schedule [data-event="pop"] .header-bg {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.35), rgb(2, 60, 99));
     border-left: 5px solid #5F96EA;
 }
