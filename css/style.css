@@ -418,35 +418,41 @@ Main Components
   margin-bottom: .2em;
 }
 
-  /* this is used to set a background color for the event and the modal window */
+/* this is used to set a background color for the event and the modal window */
+.cd-schedule .single-event {
+    border-top: 1px solid #b7b911;
+    border-right: 1px solid #b7b911;
+    border-top-right-radius: 9px;
+}
+
 .cd-schedule .single-event[data-event="pop"], .cd-schedule [data-event="pop"] .header-bg {
     background: rgba(0, 0, 0, 0.35);
-	border-left: 2px solid #FF6700;
+    border-left: 5px solid #FF6700;
 }
 .cd-schedule .single-event[data-event="pop"]:hover {
-    background: #618da1;
+    background: #086AA3;
 }
 .cd-schedule .single-event[data-event="pop"].grey {
-  background: #ddd;
+    background: #ddd;
 }
 
 .cd-schedule .single-event[data-event="musical-pop"], .cd-schedule [data-event="musical-pop"] .header-bg {
-    border-left: 2px solid #CF050E;
+    border-left: 5px solid #CF050E;
     background: rgba(0, 0, 0, 0.35);
 }
 .cd-schedule .single-event[data-event="musical-pop"]:hover {
-    background: #618da1;
+    background: #086AA3;
 }
 .cd-schedule .single-event[data-event="musical-pop"].grey {
-	background: #ddd;
+    background: #ddd;
 }
 
 .cd-schedule .single-event[data-event="gospel-soul"], .cd-schedule [data-event="gospel-soul"] .header-bg {
     background: rgba(0, 0, 0, 0.35);
-	border-left: 2px solid #07558A;
+    border-left: 5px solid #07558A;
 }
 .cd-schedule .single-event[data-event="gospel-soul"]:hover {
-    background: #618da1;
+    background: #086AA3;
 }
 .cd-schedule .single-event[data-event="gospel-soul"].grey {
     background: #ddd;
@@ -454,24 +460,24 @@ Main Components
 
 .cd-schedule .single-event[data-event="lichte-muziek"], .cd-schedule [data-event="lichte-muziek"] .header-bg {
     background: rgba(0, 0, 0, 0.35);
-	border-left: 2px solid #5F96EA;
+    border-left: 5px solid #5F96EA;
 }
 .cd-schedule .single-event[data-event="lichte-muziek"]:hover {
-    background: #618da1;
+    background: #086AA3;
 }
 .cd-schedule .single-event[data-event="lichte-muziek"].grey {
-	background: #ddd;
+    background: #ddd;
 }
 
 .cd-schedule .single-event[data-event="overig"], .cd-schedule [data-event="overig"] .header-bg {
     background: rgba(0, 0, 0, 0.35);
-	border-left: 2px solid #19A30F;
+    border-left: 5px solid #19A30F;
 }
 .cd-schedule .single-event[data-event="overig"]:hover {
-    background: #618da1;
+    background: #086AA3;
 }
 .cd-schedule .single-event[data-event="overig"].grey {
-	background: #ddd;
+    background: #ddd;
 }
 
 /* Favorieten selectie */
