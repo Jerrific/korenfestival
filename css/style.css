@@ -718,6 +718,7 @@ Main Components
             backface-visibility: hidden;
   }
   .cd-schedule .event-modal .header-bg {
+    background: #026BA7;
     -webkit-transition: -webkit-transform .4s;
     transition: -webkit-transform .4s;
     transition: transform .4s;
