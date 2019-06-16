@@ -58,6 +58,11 @@ Responsive columns
   }
 }
 
+@media screen and (max-width: 480px) {
+.column3:nth-child(n+2) {
+    width: 50%;
+}
+
 /* -------------------------------- 
 
 Main Components 
