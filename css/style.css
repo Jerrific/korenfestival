@@ -489,8 +489,8 @@ Main Components
 }
 
 .cd-schedule .single-event.sing-along {
-    border: 5px solid white;
-    border-radius: 15px;
+    border: 2px solid white;
+    border-radius: 11px;
     background: #E7040A;
 }
 .cd-schedule .single-event.masterclass:after {
