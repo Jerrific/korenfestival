@@ -74,6 +74,7 @@ Responsive columns
 
 @media screen and (max-width: 480px) {
 .column3:nth-child(n+2) {
+    margin-top: 20px;
     width: 50%;}
 }
 
