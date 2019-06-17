@@ -234,7 +234,6 @@ Main Components
   .cd-schedule .events .events-group {
     width: 25%;
     float: left;
-    border: 5px solid transparent;
     /* reset style */
     margin-bottom: 0;
   }
@@ -445,6 +444,8 @@ Main Components
 
 /* this is used to set a background color for the event and the modal window */
 .cd-schedule .single-event {
+    border-top: 2px solid rgba(0, 0, 0, 0);
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
 }
 
 .cd-schedule .single-event[data-event="lichte-muziek"], .cd-schedule [data-event="lichte-muziek"] .header-bg {
