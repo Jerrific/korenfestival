@@ -259,7 +259,7 @@ Main Components
     /* vertically center its content */
     display: table;
     height: 50px;
-    border-bottom: 1px solid #5f96ea
+    border-bottom: 1px solid #5f96ea;
     /* reset style */
     padding: 0;
   }
