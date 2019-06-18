@@ -228,6 +228,13 @@ Main Components
   padding: .8em;
 }
 
+.cd-schedule .event-date {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    max-width: 35px;
+}
+
 @media only screen and (min-width: 550px) {
   .cd-schedule .events .single-event {
     width: 40%;
