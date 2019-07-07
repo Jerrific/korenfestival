@@ -545,9 +545,13 @@ Main Components
 }
 
 @media (max-width: 480px) {
-.cd-schedule .single-event.masterclass:after {
-    right: -30px;
-    transform: inherit;}
+.cd-schedule .single-event.masterclass:before {
+    width: 35px;
+    height: 35px;
+    opacity: 1;
+    z-index: 0;
+    left: unset;
+    right: 6px;}
 }
 
 /* Favorieten selectie */
