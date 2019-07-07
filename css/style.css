@@ -516,6 +516,7 @@ Main Components
     border-radius: 11px;
     background: #E7040A;
 }
+/*
 .cd-schedule .single-event.masterclass:after {
     content: "MC";
     color: white;
@@ -523,6 +524,21 @@ Main Components
     bottom: 10px;
     right: 6px;
     transform: rotate(-45deg);
+}
+*/
+.cd-schedule .single-event.masterclass:before {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    left: 30px;
+    background: url(https://breiclub.nl/assets/img/comp/breiclub.nl/de-1e-nederlandse-online-masterclass-breien-8115-w1200.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    width: 41px;
+    height: 41px;
+    opacity: 1;
+    z-index: -1;
 }
 
 @media (max-width: 480px) {
