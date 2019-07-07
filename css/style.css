@@ -620,6 +620,11 @@ Main Components
     margin-bottom: 1rem;
 }
 
+@media (max-width: 1024px) {
+.event-info {
+    color: #513e63;}
+}
+
 @media only screen and (max-width: 480px) {
 .event-info .img-wrap {
     margin: -1.4em -5% 15px;
