@@ -59,7 +59,11 @@ Responsive columns
     border-bottom: none;
     top: unset;
     bottom: 0;
-    border-top: 1px solid grey;}
+    background: black;
+    position: fixed;
+    padding: 10px 15px 10px 10px;
+    border-top-right-radius: 21px;
+    border-top: 1px solid white;}
 }
 
 .column2 {
