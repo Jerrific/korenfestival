@@ -536,6 +536,14 @@ Main Components
     z-index: -1;
 }
 
+@media (max-width: 1024px) {
+.cd-schedule .single-event.masterclass:before {
+    width: 60px;
+    height: 60px;
+    opacity: 1;
+    z-index: 0;}
+}
+
 @media (max-width: 480px) {
 .cd-schedule .single-event.masterclass:after {
     right: -30px;
