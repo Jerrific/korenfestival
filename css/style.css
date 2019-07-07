@@ -49,7 +49,7 @@ Responsive columns
 }
 @media (min-width: 1200px) {
 .row {
-    background: #370038;
+    background: #000000;
     position: fixed;
     width: 100%;
     top: 0;
