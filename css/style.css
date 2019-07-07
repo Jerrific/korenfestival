@@ -516,16 +516,11 @@ Main Components
     border-radius: 11px;
     background: #E7040A;
 }
-/*
-.cd-schedule .single-event.masterclass:after {
-    content: "MC";
-    color: white;
-    position: absolute;
-    bottom: 10px;
-    right: 6px;
-    transform: rotate(-45deg);
+
+.single-event.masterclass {
+    position: relative;
 }
-*/
+
 .cd-schedule .single-event.masterclass:before {
     content: "";
     position: absolute;
