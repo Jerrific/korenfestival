@@ -56,6 +56,11 @@ Responsive columns
     z-index: 2;}
 }
 
+.column2 {
+  float: left;
+  width: 50%;
+}
+
 .column3 {
   float: left;
   width: 33.33%;
@@ -68,11 +73,16 @@ Responsive columns
 }
 
 @media screen and (max-width: 767px) {
-  .column3 {
+.column2 {
+    width: 100%;}
+.column3 {
     width: 100%;}
 }
 
 @media screen and (max-width: 480px) {
+.column2:nth-child(n+2) {
+    margin-top: 20px;
+    width: 50%;}
 .column3:nth-child(n+2) {
     margin-top: 20px;
     width: 50%;}
