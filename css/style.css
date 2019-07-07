@@ -72,17 +72,7 @@ Responsive columns
   clear: both;
 }
 
-@media screen and (max-width: 767px) {
-.column2 {
-    width: 100%;}
-.column3 {
-    width: 100%;}
-}
-
 @media screen and (max-width: 480px) {
-.column2:nth-child(n+2) {
-    margin-top: 20px;
-    width: 50%;}
 .column3:nth-child(n+2) {
     margin-top: 20px;
     width: 50%;}
