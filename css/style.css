@@ -48,12 +48,18 @@ Responsive columns
     border-bottom: 1px solid grey;
 }
 @media (min-width: 1200px) {
-.row {
+.header {
     background: #000000;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 2;}
+
+.footer {
+    border-bottom: none;
+    top: unset;
+    bottom: 0;
+    border-top: 1px solid grey;}
 }
 
 .column2 {
