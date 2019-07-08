@@ -520,6 +520,15 @@ Main Components
     background: #086AA3;
 }
 
+.cd-schedule .single-event[data-content="musical-popkoor-broadway"] {
+    background: #E7040A;
+    border: 2px solid white;
+    border-radius: 11px;
+}
+.cd-schedule .single-event[data-content="musical-popkoor-broadway"]:hover {
+    background: #086AA3;
+}
+
 .cd-schedule .single-event.sing-along {
     border: 2px solid white;
     border-radius: 11px;
