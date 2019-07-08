@@ -38,6 +38,17 @@ a {
   text-decoration: none;
 }
 
+/* Sing Along */
+.songs.sing-along {
+    max-height: 364px;
+    overflow-y: scroll;
+    padding: 15px;
+}
+@media (min-width: 1200px) {
+.songs.sing-along {
+    margin: 49px 0 0 -295px;}
+}
+
 /* -------------------------------- 
 Responsive columns
 -------------------------------- */
