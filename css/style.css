@@ -648,10 +648,6 @@ Main Components
   overflow: visible;
 }
 
-.img-wrap img {
-    max-width: 384px;
-}
-
 .cd-schedule .event-modal .event-info > div {
   overflow: auto;
   height: 100%;
@@ -676,6 +672,9 @@ Main Components
     overflow: hidden;
     padding: 0px;
     position: fixed;}
+
+.img-wrap img {
+    max-width: 384px;}
 
 .event-info .songs {
     color: white;
