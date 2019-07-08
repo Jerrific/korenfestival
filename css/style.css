@@ -665,7 +665,8 @@ Main Components
 
 @media (max-width: 1024px) {
 .event-info {
-    color: #513e63;}
+    color: #ffffff;
+    background: black;}
 }
 
 @media only screen and (max-width: 480px) {
