@@ -474,15 +474,12 @@ Main Components
 
 @media (min-width: 1200px) {
 .event-info .img-wrap {
-    position: fixed;
+    position: absolute;
     max-height: 184px;
     overflow-y: hidden;
     margin: -2em -3em 1em -2em;
     padding: 0px;
     text-align: left;}
-
-.event-info img {
-    width: 468px;}
 
 .event-info .songs {
     margin: 140px 0 0 -270px;
