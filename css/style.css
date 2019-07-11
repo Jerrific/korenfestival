@@ -97,6 +97,13 @@ Responsive columns
     z-index: 1;
 }
 
+@media (max-width: 480px) {
+.footer {
+    position: inherit;
+    padding: 0px;
+    border-top-right-radius: 0px;}
+}
+
 .column2 {
   float: left;
   width: 50%;
