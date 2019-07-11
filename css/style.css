@@ -670,7 +670,7 @@ Main Components
 .cd-schedule .event-modal .event-info > div {
   overflow: auto;
   height: 100%;
-  padding: 1.4em 5%;
+//  padding: 1.4em 5%;
 }
 
 .event-info p {
