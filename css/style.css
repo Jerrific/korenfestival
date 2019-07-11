@@ -92,7 +92,8 @@ Responsive columns
     position: fixed;
     padding: 10px 15px 10px 10px;
     border-top-right-radius: 21px;
-    border-top: 1px solid white;}
+    border-top: 1px solid white;
+    z-index: 1;}
 }
 
 .column2 {
