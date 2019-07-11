@@ -649,6 +649,7 @@ Main Components
 }
 
 .cd-schedule .event-modal .event-info {
+  background: #026BA7;
   position: relative;
   z-index: 2;
   line-height: 1.4;
@@ -669,8 +670,7 @@ Main Components
 
 @media (max-width: 1024px) {
 .event-info {
-    color: #ffffff;
-    background: #026BA7;}
+    color: #ffffff;}
 }
 
 @media only screen and (max-width: 480px) {
