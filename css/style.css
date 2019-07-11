@@ -92,8 +92,7 @@ Responsive columns
     position: fixed;
     padding: 10px 15px 10px 10px;
     border-top-right-radius: 21px;
-    border-top: 1px solid white;
-    z-index: 1;}
+    border-top: 1px solid white;}
 }
 
 .column2 {
@@ -119,9 +118,7 @@ Responsive columns
 }
 
 /* -------------------------------- 
-
 Main Components 
-
 -------------------------------- */
 .cd-schedule {
   position: relative;
@@ -394,7 +391,7 @@ Main Components
 
 @media only screen and (min-width: 800px) {
 .cd-schedule .event-name {
-  font-size: 1.3rem;}
+  font-size: 1.6rem;}
 
 .cd-schedule .event-date {
   margin-right: 10px;	
@@ -424,13 +421,12 @@ Main Components
     margin-top: 20px;}
 
 .event-info .content-wrap {
-    margin: -1.4em 0 0 0;
+    margin: -1.4em 0 0 -5%;
     padding: 20px;
     position: absolute;
     bottom: 0;
     background: #feffe9;
-    height: 40vh;
-    color: black;
+    height: 40vh;}
 }
 
 @media (min-width: 1024px) and (max-width: 1199px) {
@@ -479,15 +475,15 @@ Main Components
     position: fixed;
     max-height: 184px;
     overflow-y: hidden;
-    margin: -2em 0em 1em -2em;
+    margin: -2em -3em 1em -2em;
     padding: 0px;
     background: #ffffff;}
 
 .event-info img {
-    width: 100%;}
+    width: 468px;}
 
 .event-info .songs {
-    margin: 140px 0 0 -30%;
+    margin: 140px 0 0 -270px;
     position: fixed;
     color: #ffffff;
     max-width: 225px;}
@@ -496,7 +492,7 @@ Main Components
     color: black;
     position: absolute;
     bottom: 0;
-    height: 295px;
+    height: 300px;
     overflow-y: scroll;
     padding: 20px;
     background: #fbfae4;
@@ -671,7 +667,7 @@ Main Components
 .cd-schedule .event-modal .event-info > div {
   overflow: auto;
   height: 100%;
-//  padding: 1.4em 5%;
+  padding: 1.4em 5%;
 }
 
 .event-info p {
