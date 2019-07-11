@@ -448,8 +448,12 @@ Main Components
     float: none;}
 	
 .event-info .img-wrap {
-    position: fixed;
-    margin: -2em 0em 0em 0em;}
+    margin: -2em 0em 0em 0em;
+    width: 100%;
+    text-align: center;}
+	
+.img-wrap img {
+    width: 100%;}
 
 .event-info .content-wrap {
     color: black;
@@ -668,7 +672,7 @@ Main Components
 @media (max-width: 1024px) {
 .event-info {
     color: #ffffff;
-    background: #086aa3;}
+    background: #026BA7;}
 }
 
 @media only screen and (max-width: 480px) {
