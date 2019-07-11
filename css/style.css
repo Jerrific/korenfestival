@@ -421,6 +421,7 @@ Main Components
     margin-top: 20px;}
 
 .event-info .content-wrap {
+    color: black;
     margin: -1.4em 0 0 -5%;
     padding: 20px;
     position: absolute;
