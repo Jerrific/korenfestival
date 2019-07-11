@@ -478,12 +478,12 @@ Main Components
     position: fixed;
     max-height: 184px;
     overflow-y: hidden;
-    margin: -2em -3em 1em -2em;
+    margin: -2em 0em 1em -2em;
     padding: 0px;
     background: #ffffff;}
 
 .event-info img {
-    width: 468px;}
+    width: 100%;}
 
 .event-info .songs {
     margin: 140px 0 0 -30%;
