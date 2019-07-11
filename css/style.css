@@ -449,20 +449,17 @@ Main Components
 	
 .event-info .img-wrap {
     position: fixed;
-    max-height: 150px;
-    overflow: hidden;
-    margin: -2em -3em 1em -2em;
-    padding: 20px;
-    background: #ffffff;}
+    margin: -2em 0em 0em 0em;}
 
 .event-info .content-wrap {
+    color: black;
     position: absolute;
     bottom: 0;
     max-height: 300px;
     overflow-y: scroll;
     padding: 20px;
     background: #fbfae4;
-    margin: 0px 2px -4px -32px;}
+    margin: 0px 2px 0px -32px;}
 
 .event-info .songs {
     margin: 140px 0 0 -224px;
