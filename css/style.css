@@ -483,7 +483,7 @@ Main Components
     text-align: left;}
 
 .event-info .songs {
-    margin: 140px 0 0 -270px;
+    margin: 140px 0 0 -30%;
     position: fixed;
     color: #ffffff;
     max-width: 225px;}
