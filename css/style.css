@@ -574,23 +574,15 @@ Main Components
     content: "";
     position: absolute;
     bottom: 5px;
-    left: 30px;
+    right: 3px;
     background: url(/korenfestival/images/masterclass_60.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
-    width: 41px;
-    height: 41px;
+    width: 2em;
+    height: 2em;
     opacity: 1;
     z-index: -1;
-}
-
-@media (max-width: 1024px) {
-.cd-schedule .single-event.masterclass:before {
-    width: 60px;
-    height: 60px;
-    opacity: 1;
-    z-index: 0;}
 }
 
 @media (max-width: 480px) {
