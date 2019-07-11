@@ -467,7 +467,7 @@ Main Components
     margin: 0px 2px 0px -32px;}
 
 .event-info .songs {
-    margin: 0px 0px 0px -224px;
+    margin: 0px 0px 0px -25%;
     position: fixed;
     color: #ffffff;
     max-width: 163px;}
@@ -655,6 +655,7 @@ Main Components
   line-height: 1.4;
   height: 100%;
   overflow: visible;
+  margin-left: -1px;
 }
 
 .cd-schedule .event-modal .event-info > div {
