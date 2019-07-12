@@ -140,6 +140,19 @@ Main Components
   display: none;
 }
 
+@media (max-width: 767px) {
+.cd-schedule:before {
+    content: " Scroll \f047";
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    background: black;
+    padding: 2px;
+    font-family: "FontAwesome";
+}
+}
+
 @media only screen and (min-width: 800px) {
   .cd-schedule {
     width: 90%;
