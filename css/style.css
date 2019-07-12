@@ -141,6 +141,9 @@ Main Components
 }
 
 @media (max-width: 768px) {
+.cd-schedule {
+  margin: 2em 0 60px;}
+	
 .cd-schedule:before {
     content: " Scroll \f047";
     position: fixed;
