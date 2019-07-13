@@ -1,4 +1,4 @@
-/* Primary style */
+* Primary style */
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -138,21 +138,6 @@ Main Components
   /* never visible - this is used in js to check the current MQ */
   content: 'mobile';
   display: none;
-}
-
-@media (max-width: 768px) {
-.cd-schedule {
-  margin: 2em 0 60px;}
-	
-.cd-schedule:before {
-    content: " Scroll \f047";
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: block;
-    background: black;
-    padding: 2px;
-    font-family: "FontAwesome", "Font Awesome 5 Free";}
 }
 
 @media only screen and (min-width: 800px) {
