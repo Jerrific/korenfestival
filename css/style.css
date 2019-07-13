@@ -144,15 +144,15 @@ Main Components
 .cd-schedule {
   margin: 2em 0 60px;}
 	
-.cd-schedule:before {
-    content: " Scroll <i class="fa fa-arrows"></i>";
+.cd-schedule::before {
+    content: "\f0c9";
     position: fixed;
     top: 0;
     left: 0;
     display: block;
     background: black;
     padding: 2px;
-    font-family: "FontAwesome", "Font Awesome 5 Free";}
+    font-family: "Font Awesome 5 Free";	}
 }
 
 @media only screen and (min-width: 800px) {
