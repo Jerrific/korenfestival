@@ -136,8 +136,8 @@ Main Components
 
 .cd-schedule::before {
   /* never visible - this is used in js to check the current MQ */
-//  content: 'mobile';
-//  display: none;
+  content: 'mobile';
+  display: none;
 }
 
 @media (max-width: 768px) {
@@ -145,7 +145,7 @@ Main Components
   margin: 2em 0 60px;}
 	
 .cd-schedule::before {
-content: "\f0b2";
+content: "Scroll \f0b2";
 position: fixed;
 top: 0;
 left: 0;
