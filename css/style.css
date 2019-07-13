@@ -99,6 +99,7 @@ Responsive columns
 
 @media (max-width: 480px) {
 .footer {
+    position: inherit;
     padding: 0px;
     border-top-right-radius: 0px;}
 }
@@ -143,20 +144,15 @@ Main Components
 .cd-schedule {
   margin: 2em 0 60px;}
 	
-.cd-schedule::before {
-content: "Scroll \f0b2";
-position: fixed;
-top: 0;
-left: 0;
-background: black;
-padding: 2px;
-font-weight: 900;
-font-family: "Font Awesome 5 Free";
-display: inline-block;
-font-style: normal;
-font-variant: normal;
-text-rendering: auto;
--webkit-font-smoothing: antialiased;}
+.cd-schedule:before {
+    content: " Scroll \f047";
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    background: black;
+    padding: 2px;
+    font-family: "FontAwesome", "Font Awesome 5 Free";}
 }
 
 @media only screen and (min-width: 800px) {
