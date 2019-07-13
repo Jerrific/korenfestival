@@ -99,7 +99,6 @@ Responsive columns
 
 @media (max-width: 480px) {
 .footer {
-    position: inherit;
     padding: 0px;
     border-top-right-radius: 0px;}
 }
