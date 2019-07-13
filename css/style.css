@@ -145,14 +145,19 @@ Main Components
   margin: 2em 0 60px;}
 	
 .cd-schedule::before {
-    content: "\f0c9";
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: block;
-    background: black;
-    padding: 2px;
-    font-family: "Font Awesome 5 Free";	}
+content: "\f047";
+position: fixed;
+top: 0;
+left: 0;
+background: black;
+padding: 2px;
+font-weight: 900;
+font-family: "Font Awesome 5 Free";
+display: inline-block;
+font-style: normal;
+font-variant: normal;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;}
 }
 
 @media only screen and (min-width: 800px) {
