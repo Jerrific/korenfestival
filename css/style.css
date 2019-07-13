@@ -145,7 +145,7 @@ Main Components
   margin: 2em 0 60px;}
 	
 .cd-schedule:before {
-    content: " Scroll \f047";
+    content: " Scroll &#xf047";
     position: fixed;
     top: 0;
     left: 0;
